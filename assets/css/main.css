@@ -1921,4 +1921,7 @@ body {
     .gdg-text{
         margin-top: 0;
     }
+    .about--banner h2{
+        font-size: 40px;
+    }
 }
