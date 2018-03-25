@@ -758,7 +758,7 @@ body {
     left: -15px;
     right: 0;
     height: 2px;
-    background-color: gray;
+    background-color: #d6d6d6;
 }
 
 
@@ -1860,7 +1860,7 @@ body {
 
 .gdg-text {
     margin-top: 70px;
-    color: gray;
+    color: #666;
     font-family: sans-serif;
 }
 
@@ -1906,4 +1906,19 @@ body {
     height: 100px;
     width: 100px;
     border-radius: 50px;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .header--logo span{
+        font-size: 18px;
+    }
+    .header--logo img{
+        height: 75px;
+        width:66px;
+    }
+    .gdg-text{
+        margin-top: 0;
+    }
 }
