@@ -1064,7 +1064,7 @@ body {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-color: #4285f4;
+    background-color: #eaeaea;
     border-radius: 50%;
     cursor: pointer
 }
@@ -1072,7 +1072,7 @@ body {
 .work--lockup .slider--next svg,
 .work--lockup .slider--prev svg {
     width: 20px;
-    fill: #fff
+    fill: #666
 }
 
 .work--lockup .slider--next {
