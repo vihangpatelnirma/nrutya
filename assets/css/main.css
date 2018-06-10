@@ -670,27 +670,27 @@ body {
 }
 
 .side-nav li:nth-child(1)::before {
-    content: "01"
+    content: "Home"
 }
 
 .side-nav li:nth-child(2)::before {
-    content: "02"
+    content: "Dances"
 }
 
 .side-nav li:nth-child(3)::before {
-    content: "03"
+    content: "Services"
 }
 
 .side-nav li:nth-child(4)::before {
-    content: "04"
+    content: "About"
 }
 
 .side-nav li:nth-child(5)::before {
-    content: "05"
+    content: "Register"
 }
 
 .side-nav li:nth-child(6)::before {
-    content: "06"
+    content: "Contact"
 }
 
 .side-nav li:nth-child(7)::before {
@@ -716,7 +716,7 @@ body {
 }
 
 .side-nav li.is-active::before {
-    left: -33px;
+    display: none;
 }
 
 .intro {
