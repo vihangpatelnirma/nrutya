@@ -512,7 +512,7 @@ body {
 }
 
 .header--logo img {
-    width: 100px;
+    width: 200px;
     display: inline-block;
     vertical-align:  middle;
 }
@@ -686,11 +686,11 @@ body {
 }
 
 .side-nav li:nth-child(5)::before {
-    content: "Register"
+    content: "Address"
 }
 
 .side-nav li:nth-child(6)::before {
-    content: "Contact"
+    content: "Reach Us"
 }
 
 .side-nav li:nth-child(7)::before {
@@ -1909,8 +1909,7 @@ body {
         font-size: 18px;
     }
     .header--logo img{
-        height: 75px;
-        width:66px;
+        width:125px;
     }
     .gdg-text{
         margin-top: 0;
