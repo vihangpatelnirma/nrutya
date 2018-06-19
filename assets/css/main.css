@@ -678,18 +678,14 @@ body {
 }
 
 .side-nav li:nth-child(3)::before {
-    content: "Services"
-}
-
-.side-nav li:nth-child(4)::before {
     content: "About"
 }
 
-.side-nav li:nth-child(5)::before {
+.side-nav li:nth-child(4)::before {
     content: "Address"
 }
 
-.side-nav li:nth-child(6)::before {
+.side-nav li:nth-child(5)::before {
     content: "Reach Us"
 }
 
