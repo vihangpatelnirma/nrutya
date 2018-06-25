@@ -52,6 +52,21 @@ function getData() {
 
 function onSuccess() {
   leadData = {}
+
+  $("body").append(`<div style=
+    'position:absolute;
+    top:0;
+    height:100%;
+    width:100%;
+    left:0;
+    text-align:center;
+    padding-top:50%;
+    background:rgba(0,0,0,0.95);'>
+        We have recieved your query. You will hear from us soon. 
+        <pre>Thanks</pre>
+    </div>`)
+
+    setTimeout(function() {  location.reload() },2000)
 }
 
 }
