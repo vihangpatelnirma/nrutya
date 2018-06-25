@@ -2,8 +2,7 @@ const dbName = "natraj"
 const collectionName = "contacts"
 
 // Strictly this should not fall in anyone's hand
-const mongoSecret = "EPZ3QThpcx6ehuVb8mjPXL3NFZfeNH7J"
-
+const mongoSecret = process.env.mongoSecret
 const listData = `https://api.mlab.com/api/1/databases/${dbName}/collections/contacts?apiKey=${mongoSecret}`
 const insertData = `https://api.mlab.com/api/1/databases/${dbName}/collections/contacts?apiKey=${mongoSecret}`
 
