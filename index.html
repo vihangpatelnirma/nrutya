@@ -216,17 +216,17 @@
                 <form class="user-data">
                     <span> Name and Age : </span>
                     <br/>
-                    <input required lass="long-input" placeholder="Student Name"/>
-                    <input required class="short-input" placeholder="Age" type="number" />
+                    <input id="name" required lass="long-input" placeholder="Student Name"/>
+                    <input id="age" required class="short-input" placeholder="Age" type="number" />
                     <br/><br/>
                     <span> Contact Details : </span>
                     <br/>
-                    <input required class="long-input"  placeholder="Email" type="email" />
-                    <input required class="short-input" placeholder="Phone" type="number" />
+                    <input id="email" required class="long-input"  placeholder="Email" type="email" />
+                    <input id="phone" required class="short-input" placeholder="Phone" type="number" />
                     <br/><br/>
                     <span>Interest :</span>
                     <br/>
-                    <select>
+                    <select id="class">
                         <option></option>
                         <option >Bharatnatyam</option>
                         <option >Adult Fusion Bharatnatyam</option>
@@ -237,7 +237,7 @@
                     <br/>
                     <span>From where did you heard about us :</span>
                     <br/>
-                    <select>
+                    <select id="source">
                         <option></option>
                         <option >Word of Mouth</option>
                         <option >Social</option>
@@ -245,8 +245,8 @@
                         <option >Online Search</option>                     
                         <option >Previous or Sibling of Student</option>
                     </select>
-                    <br/>
-                    <button class="submit-btn" submit="saveData"> Submit </button>
+                    <br/><br/>
+                    <button class="submit-btn" submit="saveData()"> Submit </button>
                 </form>
                 </div>
             </li>

@@ -8,8 +8,8 @@ const transporter = nodeMailer.createTransport({
 	port: 465,
 	secure: true, // secure:true for port 465, secure:false for port 587
 	auth: {
-		user: process.env.user || 'nodevihang@gmail.com', 
-		pass: process.env.pass || 'vihangnode10@',
+		user: process.env.user,
+		pass: process.env.pass,
 	},
 	tls: {
 		// do not fail on invalid certs
@@ -20,8 +20,8 @@ const transporter = nodeMailer.createTransport({
 function getMailOptions(params) {
 	// setup email data with unicode symbols
 	const mailOptions = {
-		from: process.env.email || 'nodevihang@gmail.com',  // sender address
-		to: process.env.email || 'vihang.engg@gmail.com', // list of receivers
+		from: process.env.email,  // sender address
+		to: process.env.email, // list of receivers
 		subject: "[JalpaDance] Query From " + params.name, // Subject line
 		text: "Following details are queried:", // plain text body
 		html: adminTemplate(params),

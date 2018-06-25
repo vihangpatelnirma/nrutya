@@ -1,10 +1,6 @@
 
 
-const logoStyle = `
-    height: "80px";
-    position: 
-    
-`
+const logoStyle = `height: "80px";`
 
 
 function render(data) {
