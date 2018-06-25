@@ -4,6 +4,7 @@
   "description": "### [Featured on Freebiesbug](http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/)",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "start": "node server.js"
   },
   "repository": {
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/vihangpatel/gdg#readme",
   "dependencies": {
-    "express": "^4.15.5"
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.15.5",
+    "nodemailer": "^4.6.7"
   }
 }

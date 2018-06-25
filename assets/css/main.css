@@ -197,7 +197,10 @@ input::-moz-focus-inner {
 }
 
 input {
-    line-height: normal
+    line-height: normal;
+    margin: 5px;
+    padding: 5px;
+    outline: none;
 }
 
 input[type="checkbox"],
@@ -687,6 +690,10 @@ body {
 
 .side-nav li:nth-child(5)::before {
     content: "Reach Us"
+}
+
+.side-nav li:nth-child(6)::before {
+    content: "Social"
 }
 
 .side-nav li:nth-child(7)::before {
@@ -1913,4 +1920,53 @@ body {
     .about--banner h2{
         font-size: 40px;
     }
+}
+
+select {
+    border: none;
+}
+
+.user-data input {
+    margin : 5px;
+    padding: 5px;
+    color : black;
+    border : none;
+    border-bottom: 1px solid gainsboro;
+}
+
+.user-data .long-input {
+    width: 60%;
+}
+
+.user-data .short-input {
+    width: 20%;
+}
+
+.user-data .submit-btn {
+    background :#ea4c89;
+    color :white;
+    padding: 5px 20px;
+    border: none;
+}
+
+@media (max-width: 720px) {
+    .user-data .submit-btn {
+        position: absolute;
+        background :#ea4c89;
+        color :white;
+        padding: 15px 20px;
+        border: none;
+        width: 100%;
+        bottom: 20px;
+    }
+}
+
+.user-data select {
+    padding: 5px;
+    color: black;
+    height : 25px;
+}
+
+.user-data span {
+    color :#ea4c89;
 }

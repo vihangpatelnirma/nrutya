@@ -1,5 +1,11 @@
 var express = require('express');
 var app = express();
+var bodyParser = require('body-parser');
+
+// create application/json parser
+var jsonParser = bodyParser.json();
+
+var db = require('./db');
 
 var PORT = process.env.PORT || 3000;
  
@@ -22,6 +28,14 @@ app.get('/get-event-data', function(req, res) {
     });
 });
     
+app.post('/save-lead', jsonParser, function(req, res) {
+    db.saveInDb(req, res)
+})
+
+app.post('/get-leads', jsonParser, function(req, res) {
+    db.getData(req, res)
+})
+
 
 app.get('/', function(req, res){ 
 
